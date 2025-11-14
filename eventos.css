@@ -1,0 +1,70 @@
+.titulo {
+    font-family: titulos;
+    font-size: 3vw;
+    color: #D2AE77;
+    margin: 0%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content:space-around;
+}
+
+.imguno {
+    width:40%;
+}
+
+.subtitulo {
+    font-family: subtitulos;
+    font-size: 1.5vw;
+    line-height: 1;
+    padding: 1%;
+}
+
+/* CURIOSIDADES */
+
+.contenedordos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.contenedordos img{
+    width: 1500px;
+    height: 1000px;
+}
+
+.contenedordos span{
+    font-family: textos;
+    font-size: 1.3vw;
+    flex: 1;
+    margin: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 6vw;
+  }
+
+  .contenedor {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .contenedordos {
+        flex-direction: column;
+    }
+
+    .contenedordos img {
+        width: 20%;
+        max-width: none;
+    }
+
+    .contenedordos span {
+        font-size: 1vw;
+        max-width: 50%;
+    }
+}

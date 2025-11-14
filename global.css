@@ -1,0 +1,82 @@
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/Inknut_Antiqua/InknutAntiqua-Bold.ttf);
+}
+
+@font-face {
+    font-family: subtitulos;
+    src: url(/fonts/InriaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(/fonts/InriaSans-Regular.ttf);
+}
+
+/*HEADER*/
+
+.logo img {
+  height: 4vh; 
+}
+
+header {
+  background-color: black;
+  padding: 1.5% 3%;
+}
+
+.divheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navheader {
+  display: flex;
+  gap: 3vw;
+}
+
+.aheader {
+  font-family: textos;
+  font-size: 1.1vw;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+/*HOVER*/
+
+.aheader:hover {
+  color: #d2ae77;
+}
+
+/*BODY*/
+
+body {
+  background-color: black;
+  color: white;
+  font-family: textos;
+  font-size: 1.2vw; 
+  margin: 0;
+  padding: 0;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #d2ae77;
+  padding: 2% 0;
+}
+
+.footernav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.footernav a {
+  font-family: subtitulos;
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: black;
+}

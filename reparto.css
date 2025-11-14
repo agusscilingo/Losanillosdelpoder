@@ -1,0 +1,70 @@
+/*PRIMER PARTE*/
+
+.titulo {
+    font-family: titulos;
+    color: #D2AE77;
+    font-size: 4vw;
+    text-align: center;
+    margin: 2% 0;
+}
+
+/*FOTOS CONTENEDORES*/
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 45%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.card p {
+    font-family: textos;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 6vw;
+  }
+
+  .contenedor {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card p {
+    font-size: 4vw;
+    width: 90%;
+    margin-top: 2%;
+  }
+}
